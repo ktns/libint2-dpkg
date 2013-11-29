@@ -15,5 +15,7 @@ override_dh_auto_configure:
 	dh_auto_configure -- --enable-shared
 override_dh_auto_build:
 	dh_auto_build -- SHELL=/bin/bash
+override_dh_auto_install:
+	dh_auto_install -- SHELL=/bin/bash
 override_dh_auto_test:
 	dh_auto_test -- LDFLAGS='-L../lib -L../lib/.libs -lint2 -Wl,-rpath=../lib -Wl,-rpath=../lib/.libs'
