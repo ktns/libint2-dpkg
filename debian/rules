@@ -13,3 +13,5 @@
 	dh $@  --with autotools-dev
 override_dh_auto_configure:
 	dh_auto_configure -- --enable-shared
+override_dh_auto_build:
+	dh_auto_build -- SHELL=/bin/bash
