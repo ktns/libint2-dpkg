@@ -1,7 +1,7 @@
 Source: libint
 Priority: extra
 Maintainer: Katsuhiko Nishimra <ktns.87@gmail.com>
-Build-Depends: debhelper (>= 8.0.0), autotools-dev, bash
+Build-Depends: debhelper (>= 8.0.0), autotools-dev
 Standards-Version: 3.9.3
 Section: libs
 Homepage: http://sourceforge.net/projects/libint/
@@ -11,7 +11,7 @@ Homepage: http://sourceforge.net/projects/libint/
 Package: libint-dev
 Section: libdevel
 Architecture: any
-Depends: libint2 (= ${binary:Version})
+Depends: libint2 (= ${binary:Version}), ${misc:Depends}
 Description: Libint computes molecular integrals 
  Libint is a software stack for
  computing integrals used in
