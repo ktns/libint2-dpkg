@@ -1,6 +1,6 @@
-libint (2.0.3-1~4.gbp75aec5) UNRELEASED; urgency=low
+libint (2.0.3-1~5.gbp2b7171) UNRELEASED; urgency=low
 
-  ** SNAPSHOT build @75aec5f78e9a86426bd5bfe60239698afe955e75 **
+  ** SNAPSHOT build @2b71716aef5befbabf4ee0ea7eb1a1b486b85cc9 **
 
   * dh_make
   * configure with --enable-shared
@@ -41,5 +41,7 @@ libint (2.0.3-1~4.gbp75aec5) UNRELEASED; urgency=low
   * Correct names of dirs and install files
   * Remove debian README files
   * Use dpkg-buildflags explicitly
+  * Import LDFLAGS in LTLINK command
+  * Specify LDFLAGS via command
 
  -- Katsuhiko Nishimra <ktns.87@gmail.com>  Sun, 01 Dec 2013 01:16:20 +0900
