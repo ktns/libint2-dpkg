@@ -1,6 +1,6 @@
-libint (2.0.3-1~2.gbpd26cd4) UNRELEASED; urgency=low
+libint (2.0.3-1~3.gbpc2d615) UNRELEASED; urgency=low
 
-  ** SNAPSHOT build @d26cd44093e4fe9fc5217a3d9c940b7d10df6e8d **
+  ** SNAPSHOT build @c2d615c4e2d76e4692b399543342d59f37e1cfab **
 
   * dh_make
   * configure with --enable-shared
@@ -38,5 +38,7 @@ libint (2.0.3-1~2.gbpd26cd4) UNRELEASED; urgency=low
   * Clean source tree manually
   * Copyright notation
   * Delete a comment from dh_make
+  * Correct names of dirs and install files
+  * Remove debian README files
 
- -- Katsuhiko Nishimra <ktns.87@gmail.com>  Sat, 30 Nov 2013 23:15:40 +0900
+ -- Katsuhiko Nishimra <ktns.87@gmail.com>  Sun, 01 Dec 2013 00:55:13 +0900
