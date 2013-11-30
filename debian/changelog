@@ -1,6 +1,6 @@
-libint (2.0.3-1~1.gbp09cb11) UNRELEASED; urgency=low
+libint (2.0.3-1~2.gbpd26cd4) UNRELEASED; urgency=low
 
-  ** SNAPSHOT build @09cb11597e1c693b24475462c797528fe6acf2e7 **
+  ** SNAPSHOT build @d26cd44093e4fe9fc5217a3d9c940b7d10df6e8d **
 
   * dh_make
   * configure with --enable-shared
@@ -35,8 +35,8 @@ libint (2.0.3-1~1.gbp09cb11) UNRELEASED; urgency=low
   * Skip tests
   * Package information
   * Correct lintian errors
-  * Snapshot changelog
   * Clean source tree manually
   * Copyright notation
+  * Delete a comment from dh_make
 
- -- Katsuhiko Nishimra <ktns.87@gmail.com>  Sat, 30 Nov 2013 21:13:21 +0900
+ -- Katsuhiko Nishimra <ktns.87@gmail.com>  Sat, 30 Nov 2013 23:15:40 +0900
