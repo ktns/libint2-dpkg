@@ -4,7 +4,7 @@ Maintainer: Katsuhiko Nishimra <ktns.87@gmail.com>
 Build-Depends: debhelper (>= 8.0.0), autotools-dev
 Standards-Version: 3.9.3
 Section: libs
-Homepage: http://sourceforge.net/projects/libint/
+Homepage: http://sf.net/projects/libint/
 #Vcs-Git: git://git.debian.org/collab-maint/libint.git
 #Vcs-Browser: http://git.debian.org/?p=collab-maint/libint.git;a=summary
 

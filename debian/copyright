@@ -1,10 +1,9 @@
 Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: libint
-Source: <url://example.com>
+Source: http://sf.net/projects/libint/
 
 Files: *
-Copyright: <years> <put author's name and email here>
-           <years> <likewise for another author>
+Copyright: 2004-2013 Edward F. Valeev <libint@valeyev.edu>
 License: GPL-2.0+
 
 Files: debian/*
