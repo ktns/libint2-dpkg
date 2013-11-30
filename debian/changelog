@@ -1,3 +1,43 @@
+libint (2.0.3-0~1.gbp3b8b73) UNRELEASED; urgency=low
+
+  ** SNAPSHOT build @3b8b7318bf6205c16553190a6e791bd9cd4d22b2 **
+
+  * dh_make
+  * configure with --enable-shared
+  * make with SHELL=/bin/sh
+  * Build test program with -Wl,-rpath
+  * make install with SHELL=/bin/bash
+  * Add build dependency on bash package
+  * Enable parallel build
+  * No pkgconfig files
+  * Skip tests
+  * Package information
+  * correct lintian errors
+  * dh_make
+  * configure with --enable-shared
+  * make with SHELL=/bin/sh
+  * Build test program with -Wl,-rpath
+  * make install with SHELL=/bin/bash
+  * Add build dependency on bash package
+  * Enable parallel build
+  * No pkgconfig files
+  * Skip tests
+  * Package information
+  * Correct lintian errors
+  * dh_make
+  * configure with --enable-shared
+  * make with SHELL=/bin/sh
+  * Build test program with -Wl,-rpath
+  * make install with SHELL=/bin/bash
+  * Add build dependency on bash package
+  * Enable parallel build
+  * No pkgconfig files
+  * Skip tests
+  * Package information
+  * Correct lintian errors
+
+ -- Katsuhiko Nishimra <ktns.87@gmail.com>  Sat, 30 Nov 2013 12:25:37 +0900
+
 libint (2.0.3-1) unstable; urgency=low
 
   * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
