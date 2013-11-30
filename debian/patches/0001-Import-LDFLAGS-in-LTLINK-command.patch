@@ -1,0 +1,21 @@
+From: Katsuhiko Nishimra <ktns.87@gmail.com>
+Date: Sun, 1 Dec 2013 02:24:25 +0900
+Subject: Import LDFLAGS in LTLINK command
+
+---
+ Makefile |    2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/Makefile b/Makefile
+index 283ba8b..43b125c 100644
+--- a/Makefile
++++ b/Makefile
+@@ -31,7 +31,7 @@ $(TOPDIR)/lib/$(NAMEV).a: $(LIBOBJ)
+ # this is how shared library is made
+ $(TOPDIR)/lib/$(NAMEV).la: $(LIBOBJ)
+ 	find . -name '*.$(OBJSUF)' -print > libobjlist
+-	$(LTLINK) $(CXX) -o $@ -objectlist libobjlist $(LTLINKLIBOPTS)
++	$(LTLINK) $(CXX) -o $@ -objectlist libobjlist $(LTLINKLIBOPTS) $(LDFLAGS)
+ 	-rm -f libobjlist
+ 
+ check:
