@@ -8,7 +8,6 @@
 
 # Uncomment this to turn on verbose mode.
 #export DH_VERBOSE=1
-DPKG_EXPORT_FLAGS=1
 include /usr/share/dpkg/buildflags.mk
 
 %:
@@ -19,7 +18,7 @@ override_dh_auto_clean:
 override_dh_auto_configure:
 	dh_auto_configure -- --enable-shared
 override_dh_auto_build:
-	dh_auto_build --parallel -- SHELL=/bin/bash
+	dh_auto_build --parallel -- SHELL=/bin/bash LDFLAGS='$(LDFLAGS)'
 override_dh_auto_install:
 	dh_auto_install -- SHELL=/bin/bash
 override_dh_auto_test:
