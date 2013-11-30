@@ -1,6 +1,6 @@
-libint (2.0.3-0~1.gbp3b8b73) UNRELEASED; urgency=low
+libint (2.0.3-1~1.gbp09cb11) UNRELEASED; urgency=low
 
-  ** SNAPSHOT build @3b8b7318bf6205c16553190a6e791bd9cd4d22b2 **
+  ** SNAPSHOT build @09cb11597e1c693b24475462c797528fe6acf2e7 **
 
   * dh_make
   * configure with --enable-shared
@@ -35,11 +35,8 @@ libint (2.0.3-0~1.gbp3b8b73) UNRELEASED; urgency=low
   * Skip tests
   * Package information
   * Correct lintian errors
+  * Snapshot changelog
+  * Clean source tree manually
+  * Copyright notation
 
- -- Katsuhiko Nishimra <ktns.87@gmail.com>  Sat, 30 Nov 2013 12:25:37 +0900
-
-libint (2.0.3-1) unstable; urgency=low
-
-  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
-
- -- Katsuhiko Nishimra <ktns.87@gmail.com>  Sat, 30 Nov 2013 01:30:08 +0900
+ -- Katsuhiko Nishimra <ktns.87@gmail.com>  Sat, 30 Nov 2013 21:13:21 +0900
