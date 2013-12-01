@@ -1,6 +1,4 @@
-libint (2.0.3-1~5.gbp2b7171) UNRELEASED; urgency=low
-
-  ** SNAPSHOT build @2b71716aef5befbabf4ee0ea7eb1a1b486b85cc9 **
+libint (2.0.3-1~ppa1) precise; urgency=low
 
   * dh_make
   * configure with --enable-shared
@@ -10,38 +8,10 @@ libint (2.0.3-1~5.gbp2b7171) UNRELEASED; urgency=low
   * Add build dependency on bash package
   * Enable parallel build
   * No pkgconfig files
-  * Skip tests
-  * Package information
-  * correct lintian errors
-  * dh_make
-  * configure with --enable-shared
-  * make with SHELL=/bin/sh
-  * Build test program with -Wl,-rpath
-  * make install with SHELL=/bin/bash
-  * Add build dependency on bash package
-  * Enable parallel build
-  * No pkgconfig files
-  * Skip tests
-  * Package information
-  * Correct lintian errors
-  * dh_make
-  * configure with --enable-shared
-  * make with SHELL=/bin/sh
-  * Build test program with -Wl,-rpath
-  * make install with SHELL=/bin/bash
-  * Add build dependency on bash package
-  * Enable parallel build
-  * No pkgconfig files
-  * Skip tests
-  * Package information
   * Correct lintian errors
   * Clean source tree manually
-  * Copyright notation
-  * Delete a comment from dh_make
-  * Correct names of dirs and install files
-  * Remove debian README files
   * Use dpkg-buildflags explicitly
   * Import LDFLAGS in LTLINK command
   * Specify LDFLAGS via command
 
- -- Katsuhiko Nishimra <ktns.87@gmail.com>  Sun, 01 Dec 2013 01:16:20 +0900
+ -- Katsuhiko Nishimra <ktns.87@gmail.com>  Sun, 01 Dec 2013 06:30:48 +0900
