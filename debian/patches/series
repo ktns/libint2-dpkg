@@ -1,1 +1,2 @@
 0001-Import-LDFLAGS-in-LTLINK-command.patch
+0002-Link-test-program-with-Wl-rpath-option.patch

@@ -1,0 +1,21 @@
+From: Katsuhiko Nishimra <ktns.87@gmail.com>
+Date: Fri, 6 Dec 2013 16:05:16 +0900
+Subject: Link test program with -Wl,-rpath option
+
+---
+ tests/Makefile |    2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/tests/Makefile b/tests/Makefile
+index 93553bf..d1fd5bd 100644
+--- a/tests/Makefile
++++ b/tests/Makefile
+@@ -3,7 +3,7 @@ SRCDIR = ..
+ -include ../MakeVars
+ 
+ CPPFLAGS = -I. -I../include -DPREP_LIBINT2_SKIP_BOOST 
+-LDFLAGS = -L../lib -L../lib/.libs -lint2
++LDFLAGS = -L../lib -L../lib/.libs -lint2 -Wl,-rpath=../lib -Wl,-rpath=../lib/.libs
+ 
+ TEST = test_eri
+ 
