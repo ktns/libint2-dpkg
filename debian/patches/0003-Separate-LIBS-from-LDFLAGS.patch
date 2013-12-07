@@ -1,0 +1,31 @@
+From: Katsuhiko Nishimra <ktns.87@gmail.com>
+Date: Sat, 7 Dec 2013 17:24:44 +0900
+Subject: Separate LIBS from LDFLAGS
+
+---
+ tests/Makefile |    5 +++--
+ 1 file changed, 3 insertions(+), 2 deletions(-)
+
+diff --git a/tests/Makefile b/tests/Makefile
+index d1fd5bd..0d17331 100644
+--- a/tests/Makefile
++++ b/tests/Makefile
+@@ -3,7 +3,8 @@ SRCDIR = ..
+ -include ../MakeVars
+ 
+ CPPFLAGS = -I. -I../include -DPREP_LIBINT2_SKIP_BOOST 
+-LDFLAGS = -L../lib -L../lib/.libs -lint2 -Wl,-rpath=../lib -Wl,-rpath=../lib/.libs
++LDFLAGS = -L../lib -L../lib/.libs -Wl,-rpath=../lib -Wl,-rpath=../lib/.libs
++LIBS = -lint2
+ 
+ TEST = test_eri
+ 
+@@ -11,7 +12,7 @@ check:: $(TEST)
+ 	./$(TEST) 0 3 && ./$(TEST) 1 2 && ./$(TEST) 2 1
+ 
+ $(TEST): test_eri.o eri.o
+-	$(CXX) $(LDFLAGS) -o $@ $^
++	$(CXX) $(LDFLAGS) -o $@ $^ $(LIBS)
+ 
+ clean:: targetclean
+ 	-rm -rf *.o *.d
