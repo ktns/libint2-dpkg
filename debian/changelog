@@ -1,12 +1,11 @@
-libint (2.0.3-1~ppa2~2.gbp3a76f5) UNRELEASED; urgency=low
-
-  ** SNAPSHOT build @3a76f5f8235bf9c6d1b82fc8aa57fecbce5d01b4 **
+libint (2.0.3-1~ppa2) precise; urgency=low
 
   * git-buildpackage setting: use gzip compression
   * Patch test/Makefile so as to link test program with -Wl,-rpath option and
     to separate LIBS from LDFLAGS
+  * Add VCS entries to debian/control
 
- -- Katsuhiko Nishimra <ktns.87@gmail.com>  Fri, 06 Dec 2013 16:18:48 +0900
+ -- Katsuhiko Nishimra <ktns.87@gmail.com>  Sun, 08 Dec 2013 01:24:22 +0900
 
 libint (2.0.3-1~ppa1) precise; urgency=low
 
