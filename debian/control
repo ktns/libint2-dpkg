@@ -3,13 +3,13 @@ Priority: extra
 Maintainer: Katsuhiko Nishimra <ktns.87@gmail.com>
 Build-Depends: debhelper (>= 8.0.0), autotools-dev, dpkg-dev (>= 1.16.1)
 Standards-Version: 3.9.3
-Section: libs
+Section: universe/science
 Homepage: http://sf.net/projects/libint/
 Vcs-Git: git://github.com/ktns/libint2-dpkg.git
 Vcs-Browser: http://github.com/ktns/libint2-dpkg
 
 Package: libint-dev
-Section: libdevel
+Section: universe/libdevel
 Architecture: any
 Depends: libint2 (= ${binary:Version}), ${misc:Depends}
 Description: Libint computes molecular integrals 
@@ -18,7 +18,7 @@ Description: Libint computes molecular integrals
  molecular quantum mechanics.
 
 Package: libint2
-Section: libs
+Section: universe/libs
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: Libint computes molecular integrals
